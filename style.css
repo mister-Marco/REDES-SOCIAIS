@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+:root{
+    --cor-de-fundo: #19376D;
+    --cor-primaria: #0B2447;
+    --cor-secundaria: #98a2c9;
+    --cor-de-texto: #d2e8f0;
+    --cor-de-rodape: #123250;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-texto);
+    font-family:"SUSE", sans-serif;
+}
+header{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+footer{
+    background-color: var(--cor-de-rodape);
+    color: var(--cor-secundaria);
+}
