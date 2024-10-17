@@ -6,6 +6,18 @@
     --cor-de-texto: #d2e8f0;
     --cor-de-rodape: #123250;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body html{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-de-texto);
@@ -14,6 +26,18 @@ body{
 header{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    text-align: center;
+    padding: 1px;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1,2rem;
 }
 footer{
     background-color: var(--cor-de-rodape);
