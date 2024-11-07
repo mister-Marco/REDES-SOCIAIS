@@ -3,6 +3,7 @@
     --cor-de-fundo: #19376D;
     --cor-primaria: #0B2447;
     --cor-secundaria: #98a2c9;
+    --cor-terciaria: #209599;
     --cor-de-texto: #d2e8f0;
     --cor-de-rodape: #123250;
 }
@@ -54,6 +55,23 @@ nav a:hover{
     transform: scale(0.90);
     transition: 0.1s;
 }
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-terciaria) solid 2px;
+}
+
+span{
+    font-weight: bold;
+    color: var(--cor-terciaria);
+}
+
 footer{
     display: flex;
     align-items: center;
